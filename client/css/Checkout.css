@@ -1,0 +1,81 @@
+:root {
+    --dark: #010100;
+    --dark-alt: #271f12;
+    --white: #faf6f0;
+    --shade1: #fec04f;
+    --shade1-alt: #f5ce4f;
+    --shade2: #665b09;
+    --shade3: #ed6701;
+    --shade4: #ed6701;
+    --shade5: #ed6701;
+    --shade6: #d29f90;
+    --shade7: #b14703;
+    --shade8: #00bc4b;
+    --shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: .4s all ease;
+}
+
+body {
+    background: var(--dark);
+    color: var(--shade1);
+}
+
+.checkout-btn {
+    border: none;
+    border: 2px solid var(--dark);
+    border-radius: 6px;
+    background: var(--shade1);
+    color: var(--dark);
+    font-size: 1.3rem;
+    padding: .8rem;
+    width: 200px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: var(--dark);
+    color: var(--shade1);
+    box-shadow: var(--shadow);
+}
+
+.container {
+    align-items: center;
+    background: var(--shade1);
+    color: var(--dark);
+    max-width: 300px;
+    border-radius: 6px;
+    margin: auto;
+    /* margin: 2rem; */
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+}
+
+
+
+.title {
+    font-size: 1.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--dark);
+    margin-bottom: 1rem;
+}
+
+.title span {
+    font-size: 1.4rem;
+}
+
+.img {
+    width: 50%;
+}
